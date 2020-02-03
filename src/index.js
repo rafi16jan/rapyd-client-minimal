@@ -50,7 +50,7 @@ window.ReactDOM = ReactDOM;
 
 window.rapydComponents = {...Framework7Components, ...window.rapydComponents};
 
-api.client = {api, components: window.rapydComponents, selectivity: {Selectivity, Templates}, flatpickr, csv, Framework7Components, FileSaver, AgGridReact, }
+api.client = {api, components: window.rapydComponents, selectivity: {Selectivity, Templates}, flatpickr, csv, Framework7Components, FileSaver, AgGridReact};
 
 // Mount React App
 (async () => {

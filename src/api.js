@@ -97,6 +97,7 @@ async function get_session() {
     return orm;
   }
   catch(error) {
+    throw error;
     console.log(error);
     return {};
   }
